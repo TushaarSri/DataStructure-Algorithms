@@ -1,6 +1,6 @@
 package com.ds.arrays;
 
-public class WithArray {
+public class ArrayLearning {
 
     public static void main(String[] args) {
         String Students[] = {"student1", "student2", "student3"};
