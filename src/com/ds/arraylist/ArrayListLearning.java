@@ -10,23 +10,21 @@ public class ArrayListLearning {
                 new Student("name2", 02),
                 new Student("name3", 03)
         };*/
-        ArrayList studentList = new ArrayList();
+        ArrayList<Student> studentList = new ArrayList<Student>();
         studentList.add(new Student("name1", 01));
         studentList.add(new Student("name2", 02));
         studentList.add(new Student("name3", 03));
+        studentList.add(new Student("Hari", 04));
+        studentList.add(new Student("Ravishankar", 05));
+
 
         printStudentList(studentList);
     }
 
-    public static void printStudentList(/*Student[]*/ ArrayList students){
+    public static void printStudentList(ArrayList<Student> students){
 
 
-        for(/*Student s*/ Object o : students){
-            /*we are going through students StudentList which is an ArrayList of objects  */
-            /*therefore elements of the students AL are of type Object and
-             in order to be able to access getDetails method OF THE STUDENT OBJECT WHICH WE ARE OBTAINING WE
-             NEED TOT tYPECAST*/
-            Student s= (Student) o ;
+        for(Student s : students){
             System.out.println(s.getDetails());
         }
     }
