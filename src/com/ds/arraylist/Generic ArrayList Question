@@ -1,0 +1,3 @@
+Complete the code below to create an ArrayList named ‘StudentList’,
+ using Generics, with five elements — "Ram", "Shyam", "Tejas", "Hari", and "Durga" —
+  stored as String-type values in ArrayList, and then, print this ArrayList using the printList method.
