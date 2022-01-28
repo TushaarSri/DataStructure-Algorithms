@@ -1,0 +1,13 @@
+The following code was written using an array in your previous practice coding question. Modify the code, and implement it using the ArrayList.
+
+Also, a new name "Shyam" must be added at the end of the newly implemented ArrayList. This implementation is already written in the code.
+
+Sample input
+There is no input for this program.
+
+Expected output
+"Raam"
+"Joseph"
+"Ali"
+"karun"
+"Shyam"
